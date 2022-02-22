@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Book.eot");
+  src: url("../fonts/FuturaPT-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FuturaPT-Book.woff") format("woff"),
+    url("../fonts/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Demi.eot");
+  src: url("../fonts/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FuturaPT-Demi.woff") format("woff"),
+    url("../fonts/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Bold.eot");
+  src: url("../fonts/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FuturaPT-Bold.woff") format("woff"),
+    url("../fonts/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Regular.eot");
+  src: url("../fonts/Oswald-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Oswald-Regular.woff") format("woff"),
+    url("../fonts/Oswald-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Audiowide";
+  src: url("../fonts/Audiowide-Regular.eot");
+  src: url("../fonts/Audiowide-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Audiowide-Regular.woff") format("woff"),
+    url("../fonts/Audiowide-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

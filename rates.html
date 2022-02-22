@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="scripts/slick.min.js"></script>
+    <title>Тарифы | MathInvest</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.svg" alt="Логотип" class="logo-image">
+                        <span class="logo-sep"></span>
+                        <span class="logo-text">Math Invest</span>
+                    </a>
+                </div>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a href="index.html" class="menu__link">Главная</a></li>
+                            <li><a href="about-company.html" class="menu__link">О компании</a></li>
+                            <li><a href="rates.html" class="menu__link">Тарифы</a></li>
+                            <li><a href="sign-up.html" class="menu__link">Войти</a></li>
+                            <li><a href="#" class="menu__link">Связаться с нами</a></li>
+                            <li>
+                                <a href="#" class="menu__link menu__link-select">
+                                    <img src="images/ru.svg" alt="Русский язык">
+                                    <span class="menu__arrow"></span>
+                                </a>
+                                <ul class="menu__sub-list">
+                                    <li><a href="#" class="menu__sub-link"><img src="images/us.svg" alt="Русский язык"></a></li>
+                                    <li><a href="#" class="menu__sub-link"><img src="images/gb.svg" alt="Русский язык"></a></li>
+                                    <li><a href="#" class="menu__sub-link"><img src="images/it.svg" alt="Русский язык"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="rates-main">
+        <div class="container">
+            <div class="rates-main__wrapper">
+                <h1 class="rates-main__super-title block__title">Тарифы</h1>
+                <div class="rates-main__offer rates-offer">
+                    <div class="rates-offer__items">
+                        <div data-goto=".rates-slider__premium" class="rates-offer__item rates-offer__item_first">Премиум</div>
+                        <div data-goto=".rates-slider__basic" class="rates-offer__item rates-offer__item_second">Базовый</div>
+                        <div data-goto=".rates-slider__individual" class="rates-offer__item rates-offer__item_third">Индивидуальный</div>
+                    </div>
+                    <div class="rates-offer__lines-wrapper">
+                        <div class="rates-offer__lines">
+                            <span class="vertical-line vl_1"></span>
+                            <span class="horizontal-line hl_1"></span>
+                            <span class="vertical-line vl_2"></span>
+                            <span class="horizontal-line hl_2"></span>
+                            <span class="vertical-line vl_3"><span class="line-arrow"></span></span>
+                        </div>
+                    </div>
+                    <div class="rates-offer__info">
+                        <p class="rates-offer__text">Пока не определились?</p>
+                        <a href="sign-up.html" class="rates-offer__link">Оформить пробный период</a>
+                    </div>
+                </div>
+                <div class="rates-main__sliders rates-slider">
+                    <div class="rates-slider__basic">
+                        <div class="rates-slider__title">Базовый</div>
+                        <div class="rates-main__slider-wrapper">
+                            <div class="rates-main__slider">
+                                <div class="rates-main__slide rates-main__slide_first">
+                                    <div class="rates-main__slide-title">Анализ финансовых инструментов</div>
+                                    <div class="rates-main__slide-description">На основании математического моделирования определяются максимально возможные колебания стоимости акций и облигаций</div>
+                                    <div class="rates-main__slide-description">Производится расчёт вероятности роста стоимости финансовых инструментов</div>
+                                    <div class="rates-main__slide-description">Платформой регулярно обновляются значения бета-коэффициентов и показателей волатильности</div>
+                                </div>
+                                <div class="rates-main__slide rates-main__slide_second">
+                                    <div class="rates-main__slide-title">Анализ личного инвестиционного портфеля</div>
+                                    <div class="rates-main__slide-items">
+                                        <div class="rates-main__slider-lines">
+                                            <span class="horizontal-line horizontal-line_first"><span class="line-arrow"></span></span>
+                                            <span class="vertical-line vertical-line_first"></span>
+                                            <span class="horizontal-line horizontal-line_second"></span>
+                                            <span class="vertical-line vertical-line_second"><span class="line-arrow"></span></span>
+                                        </div>
+                                        <div class="rates-main__slide-item rates-main__slide-item_first">
+                                            <div class="rates-main__slide-item-text">
+                                                <span>1</span>
+                                                <p>Составьте личный инвестиционный портфель</p>
+                                            </div>
+                                        </div>
+                                        <div class="rates-main__slide-item rates-main__slide-item_second">
+                                            <div class="rates-main__slide-item-text">
+                                                <span>2</span>
+                                                <p>Выберите период анализа</p>
+                                            </div>
+                                        </div>
+                                        <div class="rates-main__slide-item rates-main__slide-item_third">
+                                            <div class="rates-main__slide-item-text">
+                                                <span>3</span>
+                                                <p>Получите полную аналитику по портфелю:</p>
+                                            </div>
+                                            <div class="rates-main__slide-subitems">
+                                                <div class="rates-main__slide-subitem">Прогноз стоимости портфеля</div>
+                                                <div class="rates-main__slide-subitem">Уровень устойчивости портфеля к колебаниям рынка</div>
+                                                <div class="rates-main__slide-subitem">Максимальную доходность портфеля и максимальные потери</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rates-main__slide rates-main__slide_third">
+                                    <div class="rates-main__slide-title">Главные новости мировых рынков</div>
+                                    <div class="rates-main__slide-description">Обзор и анализ главных мировых экономических и политических событий</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rates-slider__button">
+                            <a href="sign-up.html" class="rates-slider__link">Приобрести</a>
+                        </div>
+                    </div>
+                    <div class="rates-slider__premium">
+                        <div class="rates-slider__title">Премиум</div>
+                        <div class="rates-main__slider-wrapper">
+                            <div class="rates-main__slider">
+                                <div class="rates-main__slide rates-main__slide_first">
+                                    <div class="rates-main__slide-title">Формирование личного инвестиционного портфеля</div>
+                                    <div class="rates-main__list">
+                                        <div class="rates-main__item">
+                                            <span>1</span>
+                                            <p>Выберите финансовую цель</p>
+                                        </div>
+                                        <div class="rates-main__item">
+                                            <span>2</span>
+                                            <p>Выберите рынок и сектор для инвестиций</p>
+                                        </div>
+                                        <div class="rates-main__item">
+                                            <span>3</span>
+                                            <p>Платформа формирует наиболее подходящий и устойчивый портфель</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rates-main__slide rates-main__slide_second">
+                                    <div class="rates-main__slide-title">База оценочных организаций</div>
+                                    <div class="rates-main__slide-subtitle">Проверенные организации, специализирующиеся на оценке антиквариата</div>
+                                    <div class="rates-main__slide-description">Экспертные комиссии Math Invest проводят индивидуальный анализ каждой компании, предлагающей услуги оценки, покупки и продажи предметов антиквариата и нумизматических активов. В реестр M.I. попадают исключительно надёжные юридические лица, обеспечивающие безопасные вложения.</div>
+                                </div>
+                                <div class="rates-main__slide rates-main__slide_third">
+                                    <div class="rates-main__slide-decor"><img src="images/slide-decor.svg" alt=""></div>
+                                    <div class="rates-main__slide-subtitle">По Вашему запросу Math Invest добавляет в список финансовых инструментов для рассмотрения акции или облигации, интересные персонально Вам. На основании Ваших запросов создаётся рейтинг, наиболее востребованные из которых публикуются в эксклюзивном реестре, доступном Вам.</div>
+                                </div>
+                                <div class="rates-main__slide rates-main__slide_fourth">
+                                    <div class="rates-main__slide-title">Сравнительный анализ брокеров</div>
+                                    <div class="rates-main__slide-description">M.I. Регулярно обновляет информацию о ведущих российских и международных брокерских организациях. На основании созданного рейтинга и персональных потребностей Вы можете принять наиболее взвешенное решение об обращении к конкретному брокеру.</div>
+                                </div>
+                                <div class="rates-main__slide rates-main__slide_fifth">
+                                    <div class="rates-main__slide-title">Реестр компаний по оценке недвижимости</div>
+                                    <div class="rates-main__slide-description">Math Invest составляет собственный рейтинг организаций, специализирующихся на приобретении и инвестициях в объекты недвижимости. Главным критерием рейтинга являются отзывы пользователей платформы, что позволяет провести всестороннюю оценку каждой компании.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rates-slider__button">
+                            <a href="sign-up.html" class="rates-slider__link">Приобрести</a>
+                        </div>
+                    </div>
+                    <div class="rates-slider__individual">
+                        <div class="rates-slider__title">Индивидуальный</div>
+                        <div class="rates-main__slider-wrapper">
+                            <div class="rates-main__slider">
+                                <div class="rates-main__slide rates-main__slide_first">
+                                    <div class="rates-main__slide-description">Поддержка менеджера</div>
+                                    <div class="rates-main__slide-description">Финансовые консультации</div>
+                                    <div class="rates-main__slide-description">Бесплатный доступ к образовательным программам</div>
+                                    <div class="rates-main__slide-description">Углублённая новостная аналитика и составление анализа рынка, финансового инструмента или рыночной тенденции по Вашему персональному запросу</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rates-slider__button">
+                            <a href="sign-up.html" class="rates-slider__link">Приобрести</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__copyright">
+                    &copy; 2022 Все права защищены
+                </div>
+                <div class="footer__logo-social">
+                    <div class="footer_logo">
+                        <img src="images/logo.svg" alt="Логотип" class="logo-image">
+                        <span class="logo-text">Math Invest</span>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social_telegram">
+                            <img src="images/telegram.svg" alt="Telegram">
+                        </a>
+                        <a href="#" class="footer__social_instagram">
+                            <img src="images/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="footer__social_whatsapp">
+                            <img src="images/whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__documents">
+                    <a href="#">Политика конфидециальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/animation.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
